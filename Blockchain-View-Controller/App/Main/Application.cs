@@ -1,5 +1,5 @@
-﻿using Blockchain_View_Controller.App.Assets.db.Master;
-using Blockchain_View_Controller.App.Assets.Lists;
+﻿using Blockchain_View_Controller.App.Assets.Lists;
+using Blockchain_View_Controller.App.tests;
 using System;
 using System.Collections.Generic;
 using System.Linq;
@@ -50,6 +50,8 @@ namespace Blockchain_View_Controller.App.Main
                         "Currency-AdminAccount-Login-Error",
 
                         ];
+
+                    // More errors are here: Blockchain_View_Controller.App.Assets.Lists.my_errors
                 }
             }
         }
@@ -75,6 +77,8 @@ namespace Blockchain_View_Controller.App.Main
             // Go visit: https://hmza-sfyn.github.io/sideprojects_idk/blockchain_view_controller/index.html for more info  //
             /////////////////////////////////////////////////////////////////////////////////////////////////////////////////
 
+
+            zzo.RunTests();
         }
     }
 }

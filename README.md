@@ -2,6 +2,7 @@
 
 A custom-built framework for building and managing blockchain applications in C#! This framework streamlines the development of blockchain-related functionalities, providing a robust infrastructure for managing accounts, currencies, and transactions.
 
+<img src="./img1.png">
 
 > ## **Author: hmZa-Sfyn**
 > ## ***Github: [hmZa](https://github.com/hmZa-Sfyn)***
@@ -22,6 +23,8 @@ The idea for this framework emerged from observing the complexities faced by dev
 # Why I Choose C#
 
 C# is a versatile and powerful programming language that offers numerous advantages, making it an ideal choice for various types of software development. Here are a few reasons why I choose C#:
+
+<img src="./img2.png">
 
 1. **Strongly Typed Language**: C# enforces type safety, which helps to catch errors at compile-time rather than runtime, enhancing reliability.
 
