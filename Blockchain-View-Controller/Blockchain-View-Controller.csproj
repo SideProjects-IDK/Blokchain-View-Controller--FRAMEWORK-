@@ -1,0 +1,39 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <OutputType>Exe</OutputType>
+    <TargetFramework>net8.0</TargetFramework>
+    <RootNamespace>Blockchain_View_Controller</RootNamespace>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <Nullable>enable</Nullable>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <Compile Remove="App\NewFolder\**" />
+    <EmbeddedResource Remove="App\NewFolder\**" />
+    <None Remove="App\NewFolder\**" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Compile Include="App\.tests\.gen\gen.cs" />
+    <Compile Include="App\.tests\.gen\gen_hashes.cs" />
+    <Compile Include="App\.tests\zzo.cs" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Content Include="App\.tests\.gen\Hashes.txt" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <None Include="App\.tests\.gen\.ignore_roobi\http-client.rb" />
+    <None Include="App\.tests\.gen\generate_memory_addresses.py" />
+    <None Include="App\.tests\.gen\gen_sha256.py" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <PackageReference Include="GraphQL.NewtonsoftJson" Version="8.2.1" />
+    <PackageReference Include="Newtonsoft.Json" Version="13.0.3" />
+    <PackageReference Include="Newtonsoft.Json.Bson" Version="1.0.3-beta2" />
+  </ItemGroup>
+
+</Project>
